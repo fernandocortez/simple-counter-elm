@@ -15,7 +15,7 @@
     "postbuild": "uglifyjs -o elm.js --compress --mangle -- elm.js",
     "clean": "npm run rimraf -- elm.js",
     "predev": "npm run clean",
-    "dev": "elm-live Main.elm --output=elm.js",
+    "dev": "elm-live src/Main.elm --output=elm.js",
     "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
